@@ -22,6 +22,7 @@ ChartJS.register(
 export const options = {
   responsive: true,
   plugins: {
+
     legend: {
       position: 'top' as const,
     },
@@ -47,5 +48,5 @@ export const data = {
 };
 
 export function Barchart() {
-  return <Bar options={options} data={data} />;
+  return <Bar options={options} data={data} style={{ justifyContent: "center", }} />;
 }
