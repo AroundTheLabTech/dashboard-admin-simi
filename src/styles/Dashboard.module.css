@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidenav {
+  width: 200px;
+  background-color: #1e90ff;
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidenav ul li {
+  margin-bottom: 1rem;
+}
+
+.sidenav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidenav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.page {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 1rem; 
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px; 
+  position: relative;
+}
+
+
+.smallText {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 0.8rem;
+  color: #666; 
+}
+
+.largeText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; 
+  
+}
+
+.page {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.smallText {
+  font-size: 14px;
+  color: #888;
+}
+
+.largeText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.chart {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
